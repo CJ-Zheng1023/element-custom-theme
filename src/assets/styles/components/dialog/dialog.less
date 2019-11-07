@@ -1,0 +1,20 @@
+@import "../variable";
+.el-dialog__header{
+  background-color: @dialogHeaderBackgroundColor;
+  padding: @dialogHeaderPaddingTop @dialogHeaderPaddingHorizontal @dialogHeaderPaddingbottom ;
+}
+.el-dialog__headerbtn{
+  & .el-dialog__close{
+    color: @dialogHeaderBtnCloseColor;
+  }
+  &:focus{
+    & .el-dialog__close{
+      color: @dialogHeaderBtnHoverOrFocusColor;
+    }
+  }
+  &:hover{
+    & .el-dialog__close{
+      color: @dialogHeaderBtnHoverOrFocusColor;
+    }
+  }
+}

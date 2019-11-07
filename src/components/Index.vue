@@ -11,6 +11,14 @@
             <i class="el-icon-setting"></i>
             <span slot="title">表格</span>
           </el-menu-item>
+          <el-menu-item index="/input">
+            <i class="el-icon-setting"></i>
+            <span slot="title">表单</span>
+          </el-menu-item>
+          <el-menu-item index="/dialog">
+            <i class="el-icon-setting"></i>
+            <span slot="title">对话框</span>
+          </el-menu-item>
         </el-menu>
       </el-col>
       <el-col :span="16">

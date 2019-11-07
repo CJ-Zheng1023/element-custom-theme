@@ -1,0 +1,33 @@
+@import "../variable";
+.el-form-item__content {
+  line-height: @inputHeight;
+}
+.el-form-item__label {
+  line-height: @inputHeight;
+}
+.el-input__inner {
+  height: @inputHeight;
+  line-height: @inputHeight;
+  border-radius: @inputBorderRadius;
+}
+.el-input--medium {
+  font-size: @inputMediumFontSize;
+  & .el-input__inner{
+    height: @inputMediumHeight;
+    line-height: @inputMediumLineHeight;
+  }
+}
+.el-input--small {
+  font-size: @inputMediumFontSize;
+  & .el-input__inner{
+    height: @inputSmallHeight;
+    line-height: @inputSmallLineHeight;
+  }
+}
+.el-input--mini {
+  font-size: @inputMiniFontSize;
+  & .el-input__inner{
+    height: @inputMiniHeight;
+    line-height: @inputMiniLineHeight;
+  }
+}

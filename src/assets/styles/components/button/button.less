@@ -1,18 +1,21 @@
 @import "../variable";
 .el-button{
-  padding-top: (@inputHeight - 16px)/2;
-  padding-bottom: (@inputHeight - 16px)/2;
-  padding-left: @buttonPaddingLeft;
-  padding-right: @buttonPaddingRight;
-  border-radius: @buttonRadis;
+  padding: (@inputHeight - @buttonFontHeight)/2 @buttonPaddingHorizontal;
+  border-radius: @buttonRadius;
   &.is-round {
-    border-radius: @buttonIsRoundRadis;
-    padding-top: (@inputHeight - 16px)/2;
-    padding-bottom: (@inputHeight - 16px)/2;
-    padding-left: @buttonIsRoundPaddingLeft;
-    padding-right: @buttonIsRoundPaddingRight;
+    padding: (@inputHeight - @buttonFontHeight)/2 @buttonIsRoundPaddingHorizontal;
+    border-radius: @buttonIsRoundRadius;
   }
   &.is-circle {
-   padding: (@inputHeight - 16px)/2;
+   padding: (@inputHeight - @buttonFontHeight)/2;
   }
+}
+.el-button--medium{
+  padding: @buttonSizeMediumPaddingVertical @buttonSizeMediumPaddingHorizontal!important;
+}
+.el-button--small{
+  padding: @buttonSizeSmallPaddingVertical @buttonSizeSmallPaddingHorizontal!important;
+}
+.el-button--mini{
+  padding: @buttonSizeMiniPaddingVertical @buttonSizeMiniPaddingHorizontal !important;
 }
