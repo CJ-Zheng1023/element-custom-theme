@@ -45,16 +45,16 @@
         <span>使用说明</span>
       </div>
       <div>
-        <p><span>@tooltipPopperBackgroundColor: #303133;</span><span class="item">文字提示-popper-背景颜色#303133</span></p>
-        <p><span>@tooltipPopperColor: #FFF;</span><span class="item">文字提示-popper-字体颜色</span></p>
-        <p><span>@tooltipPopperBorderRadius: 4px;</span><span class="item">文字提示-popper-圆角</span></p>
-        <p><span>@tooltipPopperPadding: 10px;</span><span class="item">文字提示-popper-上下左右padding</span></p>
-        <p><span>@tooltipPopperFontSize: 12px;</span><span class="item">文字提示-popper-字体大小</span></p>
-        <p><span>@tooltipPopperLineHeight: 1.2;</span><span class="item">文字提示-popper-行高</span></p>
-        <p><span>@tooltipPopperMinWidth: 10px;</span><span class="item">文字提示-popper-最小宽度</span></p>
-        <p><span>@tooltipButtonFocusOrHoverColor: #1E9FFF;</span><span class="item">文字提示-按钮-聚焦或悬浮字体颜色</span></p>
-        <p><span>@tooltipButtonFocusOrHoverBorderColor: #bce2ff;</span><span class="item">文字提示-按钮-边框颜色</span></p>
-        <p><span>@tooltipButtonFocusOrHoverBackgroundColor:  #e9f5ff;</span><span class="item">文字提示-按钮-背景颜色</span></p>
+        <p><span>@tooltipPopperBackgroundColor: #303133;</span><span class="desc-item">文字提示-popper-背景颜色#303133</span></p>
+        <p><span>@tooltipPopperColor: #FFF;</span><span class="desc-item">文字提示-popper-字体颜色</span></p>
+        <p><span>@tooltipPopperBorderRadius: 4px;</span><span class="desc-item">文字提示-popper-圆角</span></p>
+        <p><span>@tooltipPopperPadding: 10px;</span><span class="desc-item">文字提示-popper-上下左右padding</span></p>
+        <p><span>@tooltipPopperFontSize: 12px;</span><span class="desc-item">文字提示-popper-字体大小</span></p>
+        <p><span>@tooltipPopperLineHeight: 1.2;</span><span class="desc-item">文字提示-popper-行高</span></p>
+        <p><span>@tooltipPopperMinWidth: 10px;</span><span class="desc-item">文字提示-popper-最小宽度</span></p>
+        <p><span>@tooltipButtonFocusOrHoverColor: #1E9FFF;</span><span class="desc-item">文字提示-按钮-聚焦或悬浮字体颜色</span></p>
+        <p><span>@tooltipButtonFocusOrHoverBorderColor: #bce2ff;</span><span class="desc-item">文字提示-按钮-边框颜色</span></p>
+        <p><span>@tooltipButtonFocusOrHoverBackgroundColor:  #e9f5ff;</span><span class="desc-item">文字提示-按钮-背景颜色</span></p>
       </div>
     </el-card>
   </div>
@@ -77,5 +77,9 @@ export default {
   }
   .item{
     margin: 10px;
+  }
+  .desc-item{
+    margin-left: 10px;
+    color: #009688;
   }
 </style>
