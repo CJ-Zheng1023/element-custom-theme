@@ -22,6 +22,8 @@
       </div>
       <div>
         <p><span>@dialogHeaderBackgroundColor: #FFF;</span><span class="item">---对话框-头部-背景色</span></p>
+        <p><span>@dialogHeaderFontColor:#303133; </span><span class="item">---对话框-头部- 字体颜色</span></p>
+        <p><span>@dialogHeaderFontSize: 18px;</span><span class="item">---对话框-头部- 字体大小</span></p>
         <p><span>@dialogHeaderBtnCloseColor: #909399;</span><span class="item">--- 对话框-头部- 关闭按钮-颜色</span></p>
         <p><span>@dialogHeaderBtnHoverOrFocusColor: #1E9FFF;</span><span class="item">---对话框-头部- 关闭按钮-悬浮或聚焦颜色</span></p>
         <p><span>@dialogHeaderPaddingTop: 20px;</span><span class="item">---对话框-头部- 上padding</span></p>
