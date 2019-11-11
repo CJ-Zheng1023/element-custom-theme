@@ -4,10 +4,6 @@ import Index from '@/components/Index'
 
 Vue.use(Router)
 /** fandp **/
-const originalPush = Router.prototype.push
-Router.prototype.push = function push (location) {
-  return originalPush.call(this, location).catch(err => err)
-}
 const children1 = [{
   path: 'button',
   name: 'Button',
@@ -34,7 +30,15 @@ const children1 = [{
   component: () => import('@/components/tabs/Tabs')
 }]
 /** zhengchj **/
-const children2 = []
+const children2 = [{
+  path: 'panel',
+  name: 'Panel',
+  component: () => import('@/components/panel/Panel')
+}, {
+  path: 'well',
+  name: 'Well',
+  component: () => import('@/components/well/Well')
+}]
 export default new Router({
   routes: [
     {

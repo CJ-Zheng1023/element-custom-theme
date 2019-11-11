@@ -6,10 +6,11 @@ import router from './router'
 
 import 'normalize.css/normalize.css'
 import ElementUI from 'element-ui'
+import ElementUIAdvanced from '@/common/lib/element-ui-advanced'
 import '@/assets/styles/themes/layui/index.css'
 import '@/assets/styles/styles.less'
 Vue.use(ElementUI)
-
+Vue.use(ElementUIAdvanced)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

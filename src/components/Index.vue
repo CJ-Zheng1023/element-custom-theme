@@ -1,35 +1,15 @@
 <template>
   <div class="app-inner">
     <el-row>
-      <el-col :span="8">
-        <el-menu :router="true" class="el-menu-vertical-demo" default-active="/button" @open="handleOpen" @close="handleClose">
-          <el-menu-item index="/button">
+      <el-col :span="5">
+        <el-menu :router="true" class="el-menu-vertical-demo" default-active="button">
+          <el-menu-item v-for="item in routes[0].children" :index="item.path" :key="item.name">
             <i class="el-icon-setting"></i>
-            <span slot="title">按钮</span>
-          </el-menu-item>
-          <el-menu-item index="/table">
-            <i class="el-icon-setting"></i>
-            <span slot="title">表格</span>
-          </el-menu-item>
-          <el-menu-item index="/input">
-            <i class="el-icon-setting"></i>
-            <span slot="title">表单</span>
-          </el-menu-item>
-          <el-menu-item index="/dialog">
-            <i class="el-icon-setting"></i>
-            <span slot="title">对话框</span>
-          </el-menu-item>
-          <el-menu-item index="/tooltip">
-            <i class="el-icon-setting"></i>
-            <span slot="title">文字提示</span>
-          </el-menu-item>
-          <el-menu-item index="/tabs">
-            <i class="el-icon-setting"></i>
-            <span slot="title">标签页</span>
+            <span slot="title">{{item.name}}</span>
           </el-menu-item>
         </el-menu>
       </el-col>
-      <el-col :span="16">
+      <el-col :span="19">
         <div style="margin: 20px;">
           <router-view/>
         </div>
@@ -40,12 +20,9 @@
 <script>
 export default {
   name: 'Index',
-  methods: {
-    handleOpen (key, keyPath) {
-      console.log(key, keyPath)
-    },
-    handleClose (key, keyPath) {
-      console.log(key, keyPath)
+  computed: {
+    routes () {
+      return this.$router.options.routes
     }
   }
 }
