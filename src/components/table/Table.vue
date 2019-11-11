@@ -106,7 +106,7 @@ export default {
   margin-bottom: 20px;
 }
 .use-desc{
-  margin-top:10px;
+  margin: 20px 0px;
 }
 .item{
   margin-left: 10px;

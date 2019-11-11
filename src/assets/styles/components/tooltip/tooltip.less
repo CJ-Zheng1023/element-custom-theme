@@ -1,0 +1,49 @@
+@import "../variable";
+.el-tooltip__popper{
+  background: @tooltipPopperBackgroundColor!important; //#303133
+  color:@tooltipPopperColor!important;
+  border-radius: @tooltipPopperBorderRadius;
+  padding:@tooltipPopperPadding;
+  font-size: @tooltipPopperFontSize;
+  line-height: @tooltipPopperLineHeight;
+  min-width: @tooltipPopperMinWidth;
+  &[x-placement^="top"]{
+    & .popper__arrow{
+      border-top-color: @tooltipPopperBackgroundColor!important;
+      &:after{
+        border-top-color: @tooltipPopperBackgroundColor!important;
+      }
+    }
+  }
+  &[x-placement^="left"]{
+    & .popper__arrow{
+      border-left-color: @tooltipPopperBackgroundColor!important;
+      &:after{
+        border-left-color: @tooltipPopperBackgroundColor!important;
+      }
+    }
+  }
+  &[x-placement^="right"]{
+    & .popper__arrow{
+      border-right-color: @tooltipPopperBackgroundColor!important;
+      &:after{
+        border-right-color: @tooltipPopperBackgroundColor!important;
+      }
+    }
+  }
+  &[x-placement^="bottom"]{
+    & .popper__arrow{
+      border-bottom-color: @tooltipPopperBackgroundColor!important;
+      &:after{
+        border-bottom-color: @tooltipPopperBackgroundColor!important;
+      }
+    }
+  }
+}
+.el-button.el-tooltip{
+  &:focus,&:hover{
+    color: @tooltipButtonFocusOrHoverColor;
+    border-color: @tooltipButtonFocusOrHoverBorderColor;
+    background-color: @tooltipButtonFocusOrHoverBackgroundColor;
+  }
+}

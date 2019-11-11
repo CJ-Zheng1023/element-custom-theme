@@ -24,6 +24,14 @@ const children1 = [{
   path: 'dialog',
   name: 'Dialog',
   component: () => import('@/components/dialog/Dialog')
+}, {
+  path: 'tooltip',
+  name: 'Tooltip',
+  component: () => import('@/components/tooltip/Tooltip')
+}, {
+  path: 'tabs',
+  name: 'Tabs',
+  component: () => import('@/components/tabs/Tabs')
 }]
 /** zhengchj **/
 const children2 = []

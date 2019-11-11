@@ -19,6 +19,14 @@
             <i class="el-icon-setting"></i>
             <span slot="title">对话框</span>
           </el-menu-item>
+          <el-menu-item index="/tooltip">
+            <i class="el-icon-setting"></i>
+            <span slot="title">文字提示</span>
+          </el-menu-item>
+          <el-menu-item index="/tabs">
+            <i class="el-icon-setting"></i>
+            <span slot="title">标签页</span>
+          </el-menu-item>
         </el-menu>
       </el-col>
       <el-col :span="16">

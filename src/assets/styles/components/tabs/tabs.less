@@ -1,0 +1,32 @@
+@import "../variable";
+.el-tabs__item {
+  padding: @tabsItemPaddingVertical @tabsItemPaddingHorizontal;
+  height: @tabsItemHeight;
+  line-height: @tabsItemLineHeight;
+  font-size: @tabsItemFontSize;
+  font-weight: @tabsItemFontWeight;
+  color: @tabsItemColor;
+  &.is-active{
+    color: @tabsItemActiveColor;
+  }
+  &:hover{
+    color: @tabsItemHoverColor;
+  }
+}
+.el-tabs__active-bar{
+  height: @tabsActiveBarHeight;
+  background-color: @tabsActiveBarBackgroundColor;
+  width: @tabsActiveBarWidth!important;
+}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item {
+  color: @tabsBorderCardItemColor;
+}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item:not(.is-disabled):hover {
+  color: @tabsBorderCardItemHoverColor;
+}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+  color: @tabsBorderCardItemActiveColor;
+  background-color: @tabsBorderCardItemActiveBackgroundColor;
+  border-right-color: @tabsBorderCardItemActiveBorderRightColor;
+  border-left-color:@tabsBorderCardItemActiveBorderLeftColor;
+}
