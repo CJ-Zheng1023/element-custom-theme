@@ -77,6 +77,5 @@ export default {
   }
   .item{
     margin: 10px;
-    color: #009688;
   }
 </style>
