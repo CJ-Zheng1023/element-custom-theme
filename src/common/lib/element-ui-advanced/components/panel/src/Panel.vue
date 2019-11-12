@@ -116,6 +116,7 @@ export default {
       padding: 10px 20px;
       word-break: break-all;
       word-wrap: break-word;
+      line-height: 1.4;
     }
   }
 </style>

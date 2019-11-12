@@ -1,8 +1,10 @@
 import Panel from './components/panel'
 import Well from './components/well'
+import ListItem from './components/listItem'
 const components = [
   Panel,
-  Well
+  Well,
+  ListItem
 ]
 const install = function (Vue) {
   components.forEach(component => {
@@ -15,5 +17,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default {
   install,
   Panel,
-  Well
+  Well,
+  ListItem
 }

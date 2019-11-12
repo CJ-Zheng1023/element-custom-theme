@@ -42,6 +42,10 @@ const children2 = [{
   path: 'well',
   name: 'Well',
   component: () => import('@/components/well/Well')
+}, {
+  path: 'listItem',
+  name: 'ListItem',
+  component: () => import('@/components/listItem/ListItem')
 }]
 export default new Router({
   routes: [
