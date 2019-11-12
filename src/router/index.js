@@ -46,6 +46,10 @@ const children2 = [{
   path: 'listItem',
   name: 'ListItem',
   component: () => import('@/components/listItem/ListItem')
+}, {
+  path: 'thumbnail',
+  name: 'Thumbnail',
+  component: () => import('@/components/thumbnail/Thumbnail')
 }]
 export default new Router({
   routes: [
