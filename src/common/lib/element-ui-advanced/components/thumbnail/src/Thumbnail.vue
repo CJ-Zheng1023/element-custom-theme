@@ -14,7 +14,8 @@ export default {
   props: {
     img: {
       type: String,
-      default: ''
+      default: '',
+      required: true
     },
     showCaption: {
       type: Boolean,

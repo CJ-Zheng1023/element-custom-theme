@@ -2,11 +2,14 @@ import Panel from './components/panel'
 import Well from './components/well'
 import ListItem from './components/listItem'
 import Thumbnail from './components/thumbnail'
+import {Filter, FilterItem} from './components/filter'
 const components = [
   Panel,
   Well,
   ListItem,
-  Thumbnail
+  Thumbnail,
+  Filter,
+  FilterItem
 ]
 const install = function (Vue) {
   components.forEach(component => {
@@ -21,5 +24,7 @@ export default {
   Panel,
   Well,
   ListItem,
-  Thumbnail
+  Thumbnail,
+  Filter,
+  FilterItem
 }

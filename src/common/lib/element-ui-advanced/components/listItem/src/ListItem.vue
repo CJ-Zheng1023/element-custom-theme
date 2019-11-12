@@ -1,5 +1,5 @@
 <template>
-  <div class="el-list-item" :class="[isActive ? 'active' : '', isRead ? 'read' : '']">
+  <div class="el-list-item" :class="[isActive ? 'el-list-item--active' : '', isRead ? 'el-list-item--read' : '']">
     <div class="el-list-item__header">
       <div class="el-list-item__header-inner">
         <div class="el-list-item__title">
@@ -61,13 +61,13 @@ export default {
     &:hover{
       background-color: @hoverBgColor;
     }
-    &.read{
+    &.el-list-item--read{
       background-color: @readBgColor;
       &:hover{
         background-color: @hoverBgColor;
       }
     }
-    &.active{
+    &.el-list-item--active{
       background-color: @activeBgColor;
       &:before{
         background-color: @activeBorderColor;
