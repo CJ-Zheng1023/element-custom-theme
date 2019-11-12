@@ -75,7 +75,7 @@ export default {
       }
     }
     & .el-panel__header{
-      padding: 15px 20px;
+      padding: 11px 20px 9px 20px;
       & .el-panel__header-inner{
         &:after{
           content: "";
@@ -108,7 +108,7 @@ export default {
       float: right;
     }
     & .el-panel__body{
-      padding: 20px;
+      padding: 10px 20px;
     }
   }
 </style>

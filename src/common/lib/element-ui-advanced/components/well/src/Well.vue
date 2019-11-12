@@ -27,18 +27,17 @@ export default {
 </script>
 <style scoped lang="less">
   .el-well{
-    border: 1px solid #e3e3e3;
-    background-color: #f5f5f5;
+    background-color: #eee;
     min-height: 20px;
     padding: 19px;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
-    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.18);
+    border-radius: 2px;
     &.el-well--sm{
-      border-radius: 3px;
+      border-radius: 1px;
       padding: 9px;
     }
     &.el-well--lg{
-      border-radius: 6px;
+      border-radius: 4px;
       padding: 24px;
     }
   }
