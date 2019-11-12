@@ -28,6 +28,17 @@
         </el-panel>
       </el-col>
     </el-row>
+    <el-card class="box-card use-desc">
+      <div slot="header" class="clearfix">
+        <span>使用说明</span>
+      </div>
+      <div>
+        <p><span>title:</span><span class="item">标题</span></p>
+        <p><span>isActive:</span><span class="item">是否激活标识，默认值false</span></p>
+        <p><span>isRead:</span><span class="item">是否已读标识，默认值false</span></p>
+        <p><span>slot:</span><span class="item">插槽值可为title(标题区),status(状态区),默认值填充内容区域</span></p>
+      </div>
+    </el-card>
   </div>
 </template>
 <script>
