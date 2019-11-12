@@ -11,7 +11,7 @@
         <el-thumbnail img="http://47.93.1.25:8888/theme/assets/admin/pages/media/works/img3.jpg"></el-thumbnail>
       </el-col>
       <el-col :span="8">
-        <el-thumbnail img="http://47.93.1.25:8888/theme/assets/admin/pages/media/works/img4.jpg" :showCaption=true>
+        <el-thumbnail img="http://47.93.1.25:8888/theme/assets/admin/pages/media/works/img4.jpg">
           <div>
             <h2>标题</h2>
             <p>标题内容</p>
@@ -23,7 +23,7 @@
         </el-thumbnail>
       </el-col>
       <el-col :span="8">
-        <el-thumbnail img="http://47.93.1.25:8888/theme/assets/admin/pages/media/works/img5.jpg" :showCaption=true>
+        <el-thumbnail img="http://47.93.1.25:8888/theme/assets/admin/pages/media/works/img5.jpg">
           <div>
             <h2>标题</h2>
             <p>标题内容</p>
@@ -35,7 +35,7 @@
         </el-thumbnail>
       </el-col>
       <el-col :span="8">
-        <el-thumbnail img="http://47.93.1.25:8888/theme/assets/admin/pages/media/works/img6.jpg" :showCaption=true>
+        <el-thumbnail img="http://47.93.1.25:8888/theme/assets/admin/pages/media/works/img6.jpg">
           <div>
             <h2>标题</h2>
             <p>标题内容</p>
@@ -53,7 +53,6 @@
       </div>
       <div>
         <p><span>img:</span><span class="item">图片地址</span></p>
-        <p><span>showCaption:</span><span class="item">是否显示图像说明区域，默认值为false</span></p>
         <p><span>slot:</span><span class="item">插槽，填充图像说明区域，需要把showCaption设置为true才会显示该区域</span></p>
       </div>
     </el-card>

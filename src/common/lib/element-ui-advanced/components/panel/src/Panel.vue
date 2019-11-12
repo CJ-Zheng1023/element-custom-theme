@@ -44,13 +44,12 @@ export default {
     sub: {
       type: String,
       default: ''
-    },
-    showHeader: {
-      type: Boolean,
-      default: true
     }
   },
   computed: {
+    showHeader () {
+      return this.title || this.$slots['caption'] || this.$slots['tools']
+    },
     boxColor () {
       return this.theme === 'box' ? this.color : '#fff'
     }

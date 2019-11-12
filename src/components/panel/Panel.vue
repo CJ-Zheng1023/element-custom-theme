@@ -31,7 +31,7 @@
       </el-col>
       <el-col :span="12">
         <h2>无header</h2>
-        <el-panel :showHeader=false :title="title" :sub="sub" :icon="icon">
+        <el-panel>
           <div>body</div>
         </el-panel>
       </el-col>
@@ -46,7 +46,6 @@
         <p><span>title:</span><span class="item">标题</span></p>
         <p><span>sub:</span><span class="item">副标题</span></p>
         <p><span>color:</span><span class="item">当box形态时的组件头部和边框颜色，默认值为#fff</span></p>
-        <p><span>showHeader:</span><span class="item">是否显示头部，默认值为true</span></p>
         <p><span>slot:</span><span class="item">插槽值可为caption(头部标题区),tools(头部操作区),默认值填充内容区域</span></p>
       </div>
     </el-card>

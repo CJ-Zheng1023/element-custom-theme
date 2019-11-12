@@ -14,12 +14,12 @@ export default {
   props: {
     img: {
       type: String,
-      default: '',
       required: true
-    },
-    showCaption: {
-      type: Boolean,
-      default: false
+    }
+  },
+  computed: {
+    showCaption () {
+      return !!this.$slots['default']
     }
   }
 }
