@@ -45,6 +45,7 @@ export default new Router({
       path: '/',
       name: 'Index',
       component: Index,
+      redirect: '/button',
       children: [...children1, ...children2]
     }
   ]
