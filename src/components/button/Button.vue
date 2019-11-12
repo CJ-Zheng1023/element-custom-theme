@@ -70,6 +70,7 @@
         <p><span>@buttonSizeSmallPaddingHorizontal: 15px; </span><span class="item">---小型按钮-左右padding</span></p>
         <p><span>@buttonSizeMiniPaddingVertical: 3px;</span><span class="item">--- 超小按钮-上下padding</span></p>
         <p><span>@buttonSizeMiniPaddingHorizontal: 8px;</span><span class="item">--- 超小按钮-左右padding</span></p>
+        <p><span>@buttonFocusOrHoverBoxshadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.26);</span><span class="item">--- 按钮悬浮或聚焦时阴影</span></p>
       </div>
     </el-card>
   </div>

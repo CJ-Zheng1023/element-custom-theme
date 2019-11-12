@@ -28,6 +28,10 @@ const children1 = [{
   path: 'tabs',
   name: 'Tabs',
   component: () => import('@/components/tabs/Tabs')
+}, {
+  path: 'tag',
+  name: 'Tag',
+  component: () => import('@/components/tag/Tag')
 }]
 /** zhengchj **/
 const children2 = [{

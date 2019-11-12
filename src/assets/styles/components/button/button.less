@@ -9,6 +9,9 @@
   &.is-circle {
    padding: (@inputHeight - @buttonFontHeight)/2;
   }
+  &:hover,&:focus{
+    box-shadow: @buttonFocusOrHoverBoxshadow;
+  }
 }
 .el-button--medium{
   padding: @buttonSizeMediumPaddingVertical @buttonSizeMediumPaddingHorizontal!important;
