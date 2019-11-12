@@ -31,11 +31,11 @@
         <span>使用说明</span>
       </div>
       <div>
-        <p><span>theme:</span><span class="item">组件形态，分为light,box</span></p>
+        <p><span>theme:</span><span class="item">组件形态，分为light，box。默认值为light</span></p>
         <p><span>icon:</span><span class="item">图标class</span></p>
         <p><span>title:</span><span class="item">标题</span></p>
         <p><span>sub:</span><span class="item">副标题</span></p>
-        <p><span>color:</span><span class="item">当box形态时的组件头部和边框颜色</span></p>
+        <p><span>color:</span><span class="item">当box形态时的组件头部和边框颜色，默认值为#fff</span></p>
         <p><span>slot:</span><span class="item">插槽值可为caption(头部标题区),tools(头部操作区),默认值填充内容区域</span></p>
       </div>
     </el-card>
@@ -59,6 +59,9 @@ export default {
 }
 </script>
 <style scoped lang="less">
+  .use-desc{
+    margin: 20px 0px;
+  }
   .item{
     margin-left: 10px;
     color: #009688;
