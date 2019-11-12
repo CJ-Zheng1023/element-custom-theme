@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-alert
-      title="输入框可配置项有：输入框尺寸(默认/中等/小型/迷你)、输入框圆角大小"
+      title="输入框可配置项有：输入框尺寸(默认/中等/小型/迷你)、输入框圆角大小、输入框悬浮边框颜色、文本域圆角大小等"
       type="success" class="desc">
     </el-alert>
     <el-form ref="form" :model="form" label-width="80px">
