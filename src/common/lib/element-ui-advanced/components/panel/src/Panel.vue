@@ -1,14 +1,14 @@
 <template>
   <div class="el-panel" :style="{'border-color': boxColor}" :class="[theme === 'light' ? 'el-panel--light' : 'el-panel--box']">
-    <div class="el-panel__header" :style="{'background-color': boxColor}">
+    <div v-if="showHeader" class="el-panel__header" :style="{'background-color': boxColor}">
       <div class="el-panel__header-inner">
         <div class="el-panel__caption">
           <slot name="caption">
-            <span class="el-panel__icon">
+            <span v-if="icon" class="el-panel__icon">
               <i :class="icon"></i>
             </span>
-            <span class="el-panel__title">{{title}}</span>
-            <span class="el-panel__sub">{{sub}}</span>
+            <span v-if="title" class="el-panel__title">{{title}}</span>
+            <span v-if="sub" class="el-panel__sub">{{sub}}</span>
           </slot>
         </div>
         <div class="el-panel__tools">
@@ -43,7 +43,11 @@ export default {
     },
     sub: {
       type: String,
-      default: '#fff'
+      default: ''
+    },
+    showHeader: {
+      type: Boolean,
+      default: true
     }
   },
   computed: {
@@ -61,8 +65,10 @@ export default {
     border-radius: 4px;
     &.el-panel--light{
       & .el-panel__header-inner{
-        padding: 10px 0 15px 0;
         border-bottom: 1px solid #eef1f5;
+        & .el-panel__caption, & .el-panel__tools{
+          padding: 10px 0 15px 0;
+        }
       }
     }
     &.el-panel--box{
@@ -86,7 +92,6 @@ export default {
     }
     & .el-panel__caption{
       float: left;
-      vertical-align: middle;
       & .el-panel__icon{
         font-size: 14px;
         color: #666;
@@ -109,6 +114,8 @@ export default {
     }
     & .el-panel__body{
       padding: 10px 20px;
+      word-break: break-all;
+      word-wrap: break-word;
     }
   }
 </style>
