@@ -9,6 +9,9 @@
   height: @inputHeight;
   line-height: @inputHeight;
   border-radius: @inputBorderRadius;
+  &:hover{
+    border-color: @inputHoverBorderColor;
+  }
 }
 .el-input--medium {
   font-size: @inputMediumFontSize;
@@ -30,4 +33,7 @@
     height: @inputMiniHeight;
     line-height: @inputMiniLineHeight;
   }
+}
+.el-textarea__inner {
+  border-radius: @TextareaBorderRaius;
 }
