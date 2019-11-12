@@ -58,6 +58,7 @@ export default {
     box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     margin-bottom: 10px;
+    border-radius: 4px;
     &.el-panel--light{
       & .el-panel__header-inner{
         padding: 10px 0 15px 0;

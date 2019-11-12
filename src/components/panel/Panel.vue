@@ -59,6 +59,9 @@ export default {
 }
 </script>
 <style scoped lang="less">
+  .use-desc{
+    margin: 20px 0px;
+  }
   .item{
     margin-left: 10px;
     color: #009688;
