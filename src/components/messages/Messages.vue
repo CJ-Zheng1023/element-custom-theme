@@ -1,14 +1,14 @@
 <template>
   <div>
     <el-row>
-      <el-col :span="10">
+      <el-col :span="18">
         <el-panel :title="title" :icon="icon">
           <div class="panel-body">
             <el-scrollbar style="height: 100%">
               <ul class="messages">
                 <li class="messages-item">
                   <div class="messages-item__status">
-                    <el-tag type="success" effect="dark" size="mini">
+                    <el-tag effect="dark" size="mini">
                       <i class="el-icon-alarm-clock"></i>
                     </el-tag>
                   </div>
@@ -62,7 +62,7 @@
                 </li>
                 <li class="messages-item">
                   <div class="messages-item__status">
-                    <el-tag type="success" effect="dark" size="mini">
+                    <el-tag effect="dark" size="mini">
                       <i class="el-icon-alarm-clock"></i>
                     </el-tag>
                   </div>
