@@ -35,12 +35,3 @@ export default {
   }
 }
 </script>
-<style scoped lang="less">
-  .el-filter{
-    &:after{
-      content: '';
-      display: block;
-      clear: both;
-    }
-  }
-</style>

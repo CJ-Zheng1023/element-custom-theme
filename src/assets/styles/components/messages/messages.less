@@ -1,0 +1,33 @@
+.messages{
+  margin: 0;
+  padding: 0 5px 0 0;
+}
+.messages-item{
+  margin: 0;
+  list-style: none;
+  position: relative;
+  padding: 0 85px 0 30px;
+  font-size: 13px;
+  background-color: #fafafa;
+  margin-bottom: 5px;
+  & .messages-item__status{
+    position: absolute;
+    left: 0;
+    top: 3px;
+  }
+  & .messages-item__content{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #82949a;
+    padding: 4px 0 3px 0;
+  }
+  & .messages-item__time{
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    color: #c1cbd0;
+    font-style: italic;
+  }
+}
+

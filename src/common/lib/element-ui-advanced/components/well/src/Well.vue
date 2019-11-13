@@ -25,20 +25,3 @@ export default {
   }
 }
 </script>
-<style scoped lang="less">
-  .el-well{
-    background-color: #eee;
-    min-height: 20px;
-    padding: 19px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.18);
-    border-radius: 2px;
-    &.el-well--sm{
-      border-radius: 1px;
-      padding: 9px;
-    }
-    &.el-well--lg{
-      border-radius: 4px;
-      padding: 24px;
-    }
-  }
-</style>
