@@ -36,6 +36,10 @@ const children1 = [{
   path: 'stat',
   name: 'Stat',
   component: () => import('@/components/stat/Stat')
+}, {
+  path: 'navigation',
+  name: 'Navigation',
+  component: () => import('@/components/navigation/Navigation')
 }]
 /** zhengchj **/
 const children2 = [{
