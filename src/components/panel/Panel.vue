@@ -52,11 +52,7 @@
   </div>
 </template>
 <script>
-
-import ElRow from 'element-ui/packages/row/src/row'
-
 export default {
-  components: {ElRow},
   name: 'Panel',
   data () {
     return {

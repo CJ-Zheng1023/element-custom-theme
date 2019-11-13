@@ -53,7 +53,7 @@
       </div>
       <div>
         <p><span>img:</span><span class="item">图片地址</span></p>
-        <p><span>slot:</span><span class="item">插槽，填充图像说明区域，需要把showCaption设置为true才会显示该区域</span></p>
+        <p><span>slot:</span><span class="item">插槽，填充图像说明区域</span></p>
       </div>
     </el-card>
   </div>
