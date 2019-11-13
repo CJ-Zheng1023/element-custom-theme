@@ -50,6 +50,7 @@ export default {
     list-style: none;
     box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
     & .navigation-item{
+      border-radius: 2px;
       padding: 10px 20px;
       font-size: 14px;
       font-weight: 600;
