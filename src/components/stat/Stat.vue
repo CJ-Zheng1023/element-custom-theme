@@ -16,7 +16,7 @@
         <p><span>value</span><span class="item">值</span></p>
         <p><span>label</span><span class="item">描述</span></p>
         <p><span>icon</span><span class="item">图标</span></p>
-        <p><span>color</span><span class="item">每快的背景颜色</span></p>
+        <p><span>color</span><span class="item">背景颜色</span></p>
       </div>
     </el-card>
   </div>
