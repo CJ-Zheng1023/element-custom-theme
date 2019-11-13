@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-row>
-      <el-col :span="18">
+      <el-col :span="12">
         <el-panel :title="title" :icon="icon">
           <div class="panel-body">
             <el-scrollbar style="height: 100%">
@@ -12,7 +12,7 @@
                       <i class="el-icon-alarm-clock"></i>
                     </el-tag>
                   </div>
-                  <div class="messages-item__content">这是一条消息</div>
+                  <div class="messages-item__content">Web server hardware needs to be upgraded.</div>
                   <div class="messages-item__time">2019.11.12</div>
                 </li>
                 <li class="messages-item">
@@ -48,7 +48,7 @@
                       <i class="el-icon-goods"></i>
                     </el-tag>
                   </div>
-                  <div class="messages-item__content">这是一条消息</div>
+                  <div class="messages-item__content">Web server hardware needs to be upgraded.</div>
                   <div class="messages-item__time">2019.11.12</div>
                 </li>
                 <li class="messages-item">
