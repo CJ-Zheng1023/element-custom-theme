@@ -7,24 +7,24 @@
     <div class="nav-warpper">
       <ul class="navigation">
         <li class="navigation-item isActive">
-          <span class="navigation-item__icon"><i class="el-icon-setting"></i></span>
-          <span class="navigation-item__label">Home</span>
+          <span class="navigation-item__icon"><i class="el-icon-s-home"></i></span>
+          <span class="navigation-item__label">HOME</span>
         </li>
         <li class="navigation-item">
-          <span class="navigation-item__icon"><i class="el-icon-setting"></i></span>
-          <span class="navigation-item__label">Home</span>
+          <span class="navigation-item__icon"><i class="el-icon-edit-outline"></i></span>
+          <span class="navigation-item__label">REPORTS</span>
         </li>
         <li class="navigation-item">
-          <span class="navigation-item__icon"><i class="el-icon-setting"></i></span>
-          <span class="navigation-item__label">Home</span>
+          <span class="navigation-item__icon"><i class="el-icon-user"></i></span>
+          <span class="navigation-item__label">USER ACTIVITY</span>
         </li>
         <li class="navigation-item">
-          <span class="navigation-item__icon"><i class="el-icon-setting"></i></span>
-          <span class="navigation-item__label">Home</span>
+          <span class="navigation-item__icon"><i class="el-icon-shopping-cart-full"></i></span>
+          <span class="navigation-item__label">MARKETPLACE</span>
         </li>
         <li class="navigation-item">
-          <span class="navigation-item__icon"><i class="el-icon-setting"></i></span>
-          <span class="navigation-item__label">Home</span>
+          <span class="navigation-item__icon"><i class="el-icon-close-notification"></i></span>
+          <span class="navigation-item__label">TEMPLATES</span>
         </li>
       </ul>
 
@@ -50,6 +50,7 @@ export default {
     list-style: none;
     box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
     & .navigation-item{
+      border-radius: 2px;
       padding: 10px 20px;
       font-size: 14px;
       font-weight: 600;
@@ -62,6 +63,9 @@ export default {
         & .navigation-item__icon>i{
           color: #fff;
         }
+      }
+      &:hover{
+        cursor: pointer;
       }
       &:first-child{
         margin-top: 0;
