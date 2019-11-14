@@ -58,7 +58,9 @@
         <p><span>@tabsItemActiveColor: #1E9FFF;</span><span class="item">标签页-item-字体颜色</span></p>
         <p><span>@tabsItemHoverColor: #1E9FFF;</span><span class="item">标签页-item-字体颜色</span></p>
         <p><span>@tabsActiveBarHeight: 2px;</span><span class="item">标签页-下划线-高度</span></p>
-        <p><span>@tabsActiveBarBackgroundColor: #1E9FFF;</span><span class="item">标签页-下划线-背景颜色</span></p>
+        <p><span>@tabsActiveBarBackgroundColor: #1E9FFF;</span><span class="item">标签页-下划线-激活背景颜色</span></p>
+        <p><span>@tabsNavBgColor: #eee;</span><span class="item">标签页-下划线-背景颜色</span></p>
+        <p><span>@tabsActiveBarWidth: 56px;</span><span class="item">标签页-下划线-宽度</span></p>
         <p><span>@tabsActiveBarWidth: 56px;</span><span class="item">标签页-下划线-宽度</span></p>
         <p><span>@tabsBorderCardItemColor:#909399;</span><span class="item">卡片标签页-字体颜色</span></p>
         <p><span>@tabsBorderCardItemHoverColor: #409EFF;</span><span class="item">卡片标签页-悬浮字体颜色</span></p>
