@@ -15,11 +15,16 @@
         </div>
       </el-col>
     </el-row>
+    <quick-nav></quick-nav>
   </div>
 </template>
 <script>
+import QuickNav from './quickNav/QuickNav'
 export default {
   name: 'Index',
+  components: {
+    QuickNav
+  },
   computed: {
     routes () {
       return this.$router.options.routes
