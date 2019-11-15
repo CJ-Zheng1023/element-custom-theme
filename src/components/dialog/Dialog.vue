@@ -21,7 +21,7 @@
     <el-dialog
       title="提示"
       :visible.sync="dialogTableVisible"
-      width="70%"
+      width="80%"
     >
       <el-table
         :data="tableData"
