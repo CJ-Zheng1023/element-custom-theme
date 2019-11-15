@@ -1,0 +1,53 @@
+.el-stat1{
+  border-radius: 4px;
+  background: #fff;
+  padding: 15px 15px 20px 15px;
+  margin-bottom: 20px;
+  &:hover{
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.26);
+  }
+  & .el-stat1__progress{
+    & .status{
+      overflow: hidden;
+      margin-top: 5px;
+      font-size: 11px;
+      color: #AAB5BC;
+      font-weight: 600;
+      text-transform: uppercase;
+      & .el-stat1__progresslabel{
+        float: left;
+      }
+      & .el-stat1__progressnumber{
+        float: right;
+      }
+    }
+  }
+  & .display{
+    overflow: hidden;
+    margin-bottom: 20px;
+    & .el-stat1__icon{
+      float: right;
+      &>i {
+        color: #cbd4e0;
+        font-size: 26px;
+      }
+    }
+    & .el-stat1__details{
+      float: left;
+      & .el-stat1__value{
+        margin: 0 0 2px 0;
+        padding: 0;
+        font-size: 30px;
+        font-weight: 400;
+        color: #4DB3A2 !important;
+      }
+      & .el-stat1__label{
+        font-size: 14px;
+        color: #AAB5BC;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
